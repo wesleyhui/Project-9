@@ -1,0 +1,51 @@
+/*---Base Layout---*/
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background:rgb(237, 245, 247);
+}
+
+body {
+    font-family: 'Roboto', serif;
+}
+
+h3 { 
+    text-align: center;
+}
+
+hr { 
+    width: 90%;
+}
+
+.container { 
+    padding: 0px;
+}
+
+/*---About Me---*/
+
+.bio { 
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.aloha { 
+    color: teal;
+}
+
+.profile {
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid teal;
+    margin-left: 30px;   
+}
+
+.profile:hover {
+    width: 90%;
+    border: 2px solid green;
+    margin-left: 20px;
+}
