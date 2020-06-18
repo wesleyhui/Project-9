@@ -33,14 +33,14 @@ hr {
     margin-right: 5px;
 }
 
-.aloha { 
+.greeting { 
     color: teal;
 }
 
 .profile {
     width: 80%;
     border-radius: 10px;
-    border: 1px solid teal;
+    border: 1px solid grey;
     margin-left: 30px;   
 }
 
@@ -49,3 +49,108 @@ hr {
     border: 2px solid green;
     margin-left: 20px;
 }
+
+/*---Nav Layout---*/
+
+.navigation { 
+    margin-top: 15px;
+}
+
+.navigation a { 
+    color: black;
+    font-size: 16px;
+}
+
+.nav-item a:hover { 
+    border: 1px solid grey;
+}
+
+/*---Alert Layout---*/
+
+.alert { /*alert div in HTML*/
+    padding: 5px;
+    margin-bottom: 5px;
+
+    
+}
+.alert-banner { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 10px;
+    padding: 0 10px;
+    background-color:white;
+    color: teal;
+    border-radius: 5px;
+    border: solid 1px gray;
+   
+}
+.alert-banner h5{ 
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: auto;
+}
+
+.alert-close { 
+    font-size: 16px;
+    margin-left: auto;
+    margin-bottom: 0px;
+    line-height:20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/*---Portfolio Layout---*/
+
+.card.my-3.mx-2 { 
+    border: solid 1px gray;
+}
+
+.card.my-3.mx-2:hover { 
+    background: whitesmoke;
+}
+
+.portfolio h5 { 
+    color:teal;
+    text-align: center;
+}
+
+.skills { 
+    text-align: center;
+}
+
+.card-body p {
+    text-align: center;
+}
+
+img,
+.card-img-top { 
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+/*---Contact Layout---*/
+
+.contact h6 { 
+    text-align: center;
+}
+
+
+.contact a { 
+    color: grey; 
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+.contact p { 
+    text-align: center;
+}
+
+.return-top a { 
+    color: black;
+    font-size: 12px;
+}
+
+/*---Media Query---*/
