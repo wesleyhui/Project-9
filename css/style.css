@@ -6,7 +6,7 @@
 
 html,
 body {
-    background:rgb(237, 245, 247);
+    background:rgb(240, 240, 240);
 }
 
 body {
@@ -38,14 +38,14 @@ hr {
 }
 
 .profile {
-    width: 80%;
+    width: 20%;
     border-radius: 10px;
     border: 1px solid grey;
-    margin-left: 30px;   
+    margin-left: 20px;   
 }
 
 .profile:hover {
-    width: 90%;
+    width: 20%;
     border: 2px solid green;
     margin-left: 20px;
 }
@@ -67,7 +67,7 @@ hr {
 
 /*---Alert Layout---*/
 
-.alert { /*alert div in HTML*/
+.alert { 
     padding: 5px;
     margin-bottom: 5px;
 
@@ -169,13 +169,13 @@ img,
     .profile {
         border: 1px solid grey;
         border-radius: 20px;
-        width: 50%;
-        height: 50%;
+        width: 30%;
+        height: 30%;
     }
 
     .profile:hover {
-        transform: rotate(2deg);
-        width: 60%;
+        transform: rotate(1deg);
+        width: 30%;
         border: 2px solid green;
     }
 
